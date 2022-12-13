@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.angel-wrapper {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+
+    transition: background 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.angel-wrapper.default{
+    background: #000000 !important;
+    color: #ffffff !important;
+    font-size: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.angel-text {
+    margin: 0 10vw;
+    text-align: center;
+}
